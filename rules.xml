@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rules>
+    <Rule id="money">
+        <Question>Do you have 100 000 $ for a car (yes/no)?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="comfort">
+        <Question>What is more important for you, comfort or speed?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="speed"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="comfort"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="luxury">
+        <Question>What feature is must-have for you, atm or abs?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="atm"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="abs"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="family">
+        <Question>Do you need family car (yes/no)?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+</Rules>
